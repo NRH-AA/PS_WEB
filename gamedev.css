@@ -166,7 +166,10 @@ a:hover
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none; 
+  /*
+    Commented out so I can use pointer events...
+    pointer-events: none;  
+  */
 }
 
 .nav-section a 
@@ -226,5 +229,18 @@ html
 
 
 
+/* This is not part of the original files */
+#ps-download-button {
+  background-color: rgb(9, 255, 0);
+  border: 2px solid rgb(92, 92, 92);
+  border-radius: 15px;
+  font-size: 18px;
+  cursor: pointer;
+}
 
-
+#ps-download-a {
+  text-decoration: none;
+  padding: 5px;
+  display: inline;
+  color: black;
+}
